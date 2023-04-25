@@ -4,3 +4,7 @@ echo . . . . . . . . . . . . . . . : : : : : : ... ... ... ...
 echo áåçôçùõëùêòêåòôçêõëéìù÷ñóáæ»§ìëêëëëëë:
 read otvet
 echo no $RANDOM 
+for color in $(seq 31 37); do
+	sleep 0.6
+	echo -e "\e[${color}m i am nik and you?\e[m"
+done
