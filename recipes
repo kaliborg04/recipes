@@ -1,0 +1,157 @@
+echo my name is nikita
+echo i have a play рецепты
+echo 1 мука 300 грамм  чайная ложка разрыхлителя. сливочьное масло одна пачка растереть мелкую крошку
+echo . перемешать. чайная ложка соли 
+echo 100 грамм сахара одно яйцо две столовые ложки сметаны
+echo одна чайная ложка гашёной соды .
+echo перемешать, влить в муку и замесить тесто.
+echo двенадцать часов
+
+echo r 
+echo d
+echo m
+
+read otvet
+
+if [ $otvet = r ]; then
+	echo ты в касте бандитов
+fi
+
+if [ $otvet = d ]; then
+	echo ты в касте пекарюв
+fi
+
+if [ $otvet = m ]; then
+	echo ты в касте клоунав
+fi
+echo 5
+echo 9
+echo 2
+read otvet
+
+
+if [ $otvet = 5 ]; then
+	echo ты с капъём
+fi
+
+if [ $otvet = 9 ]; then
+	echo ты с агнемётом
+fi
+
+if [ $otvet = 2 ]; then
+	echo ты с слабым мечём
+fi
+
+echo q
+echo x
+echo z
+
+read otvet
+
+if [ $otvet = q ]; then
+	echo ты одет в ваеную куртку с брюкоми 
+fi
+
+if [ $otvet = x ]; then
+	echo ты одет в камбенезоне наёмника
+fi
+
+if [ $otvet = z ]; then
+	echo ты одет в футболку и брюки
+fi
+echo J
+echo F
+echo K
+read otvet
+
+if [ $otvet = J ]; then
+	echo у тебя 200 HP
+fi
+
+if [ $otvet = F ]; then
+	echo у тебя 100 HP
+fi
+if [ $otvet = K ]; then
+	echo ты бесмертный
+fi
+
+echo VA
+echo WA
+echo FA
+read otvet
+
+if [ $otvet = VA ]; then
+	echo у тебя есть танк
+fi
+
+if [ $otvet = WA ]; then
+	echo у тебя есть матацыкал
+fi
+
+if [ $otvet = FA ]; then
+	echo у тебя есть веспа
+fi
+
+echo B
+echo DOS
+echo CART
+read otvet
+
+if [ $otvet = B ]; then
+	echo у тебя есть карта
+fi
+
+if [ $otvet = DOS ]; then
+	echo у тебя есть беноколь
+fi
+
+if [ $otvet = CART ]; then
+	echo у тебя есть рюкзак
+fi
+
+echo T
+read otvet
+
+if [ $otvet = T ]; then
+	echo верталёт
+fi
+
+echo VAS NESTS
+read otvet
+if [ $otvet = VAS ]; then
+	echo по кокому пути ты шол
+fi
+
+if [ $otvet = NESTS ]; then
+	echo у тебя есть ядерный гранатамёт
+fi
+echo ed
+read RADS
+echo ну ты халк
+echo asd
+echo ASD
+read otvet
+
+if [ $otvet = asd ]; then
+	echo ты скелет
+fi
+
+if [ $otvet = ASD ]; then
+	echo ты обычьный человек
+fi
+for i in $(seq 20); do
+	echo -e '\e[41;3;5m ОПАСНОСТЬ \e[0m'
+	echo -e '\e[32;3;5m ТЫ УМИРАЕШЬ \e[0m'
+	sleep 1 
+	echo -e '\e[33;3;5;7m ТЫ УМЕР \e[0m'
+done
+
+for i in 1 2 3 4 5 6 7 8 9; do
+	sleep 0.2	
+	echo PASVORT-fish-mech
+	echo -e '\e[7;25;33m i am red \e[0m'
+	echo -e '\e[3;5;25;7;10m i am white \e[0m'
+done
+echo qnd
+
+	echo у тебя есть призывалка боса

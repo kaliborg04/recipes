@@ -1,0 +1,10 @@
+echo -en '\e[s' # сохранить текущую позицию курсора
+echo -en '\e[2J' # очистить экран
+echo -en '\e[1;1f' # переместить курсор в 1;1 
+echo -en '\e[32m'
+for i in W a k e ' ' u p , ' ' N e o . . .; do
+	echo -n "$i"
+	sleep 0.$((RANDOM % 200 + 100))
+done
+echo -en '\e[m'
+echo -en '\e[u' # восстановить позицию курсора
